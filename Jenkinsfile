@@ -46,7 +46,7 @@ stage('Deploy') {
             steps {
                 
                 sh '''
-                  npm install netlify-cli -g
+                  npm install netlify-cli 
                   node.modules/.bin/netlify --version 
                 '''
                 
